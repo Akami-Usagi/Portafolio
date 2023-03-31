@@ -258,14 +258,14 @@ section.about{
 }
 
 .skills__img :hover{
-    transition: height 1s, transform 1s;
+    transition: height 0.7s, transform 0.7s;
     height: 120px;
     transform: rotate(360deg);
 
 }
 
 .skills__img :not(hover){
-    transition: height 1s, transform 1s;
+    transition: height 0.7s, transform 0.7s;
     height: 50px;
     transform: rotate(-360deg);
 }
@@ -311,15 +311,15 @@ section.about{
 }
 
 .hobbies__img :hover{
-    transition: width 1s, transform 2s;
-    height: 80px;
+    transition: height 0.7s, transform 0.7s;
+    height: 120px;
     transform: rotate(360deg);
 
 }
 
 .hobbies__img :not(hover){
-    transition: width 1s, transform 2s;
-    height: initial;
+    transition: height 0.7s, transform 0.7s;
+    height: 50px;
     transform: rotate(-360deg);
 }
 
@@ -328,7 +328,7 @@ section.about{
 section.academic{
     background-color: var(--background-light);
     margin-top: 6rem;
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
 }
 
 .academic__title{
@@ -354,6 +354,16 @@ section.academic{
     background-color: var(--background-dark);
     justify-content: center;
     align-items: center;
+}
+
+.academic__courses__item__logo{
+    width: 230px;
+    transition: 0.5s;
+}
+
+.academic__courses__item__logo:hover{
+    transition: 0.5s;
+    width: 270px;
 }
 
 .academic__courses__item__title{
