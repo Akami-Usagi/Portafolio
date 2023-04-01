@@ -638,6 +638,11 @@ Utiliza las referencias de los breakpoints @media abajo */
         width: 50vw;
     }
 
+    .menu__list{
+        
+        padding-left: initial;
+    }
+
     .title__profile{
         margin: initial;
         margin-bottom: 2rem;
@@ -651,6 +656,14 @@ Utiliza las referencias de los breakpoints @media abajo */
     
     .title__network{
         display: none;
+    }
+
+    .academic__courses__list{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
     }
 
     .academic__courses__item__img{
