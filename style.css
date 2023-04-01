@@ -352,6 +352,13 @@ section.academic{
     justify-content: center;
 }
 
+.academic__courses__list{
+    padding-left: 0rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    
+}
+
 .academic__courses__item__img{
     display: flex;
     width: 400px;
@@ -599,11 +606,37 @@ Utiliza las referencias de los breakpoints @media abajo */
     }
 
     .title__profile{
-        width: 300px;
+        width: 80%;
+    }
+
+    .experience__img{
+        width: 80%;
+    }
+
+    .experience__info{
+        margin: initial;
+        margin-top: 2rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .formcontato__text__head{
+        width: 80%;
+    }
+
+    .formcontato__img{
+        width: 35vw;
+        margin-right: initial;
+        margin-bottom: -2rem;
     }
 }
 
 @media only screen and (max-width: 635px){
+
+    .menu__header{
+        width: 50vw;
+    }
 
     .title__profile{
         margin-bottom: 2rem;
@@ -633,5 +666,80 @@ Utiliza las referencias de los breakpoints @media abajo */
         align-items: center;
     }
 
+    .formcontato__form{
+        text-align: center;
+        width: 70vw;
+    }
    
+}
+
+@media only screen and (max-width: 463px){
+
+    .menu__header{
+        margin: initial;
+    }
+
+    .nav__menu{
+        margin: initial;
+    }
+
+    .menu__list{
+        margin: initial;
+        padding: initial;
+    }
+
+    .title__div{
+        margin: initial;
+        padding: initial;
+        margin-top: 1rem;
+    }
+
+    .title__profile{
+        margin: initial;
+        margin-bottom: 2rem;
+    }
+    
+    .title__bio{
+        margin: initial;
+    }
+
+    .skills__box{
+        width: 75vw;
+    }
+    
+    .hobbies__box{
+        width: 75vw;
+    }
+
+    .menu__logo{
+        width: 20vw;
+    }
+
+    .menu__title{
+        font-size: 5vw;
+    }
+
+    
+
+   
+    
+    
+
+    .academic__courses__list{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    
+
+    .footer__logo{
+        width: 20vw;
+    }
+
+    .footer__rodape p{
+        font-size: 4vw;
+    }
 }
