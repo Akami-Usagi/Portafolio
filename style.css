@@ -639,6 +639,7 @@ Utiliza las referencias de los breakpoints @media abajo */
     }
 
     .title__profile{
+        margin: initial;
         margin-bottom: 2rem;
     }
     
@@ -719,12 +720,6 @@ Utiliza las referencias de los breakpoints @media abajo */
         font-size: 5vw;
     }
 
-    
-
-   
-    
-    
-
     .academic__courses__list{
         display: flex;
         flex-direction: column;
@@ -732,8 +727,6 @@ Utiliza las referencias de los breakpoints @media abajo */
         align-items: center;
         
     }
-
-    
 
     .footer__logo{
         width: 20vw;
