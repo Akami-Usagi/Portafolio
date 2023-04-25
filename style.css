@@ -413,6 +413,15 @@ section.experience{
     padding-bottom: 3rem;
 }
 
+.experiencie__box__inverted{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3rem;
+    flex-direction: row-reverse;
+}
+
 .experience__img{
     width: 50%;
     margin-right: 2rem;
