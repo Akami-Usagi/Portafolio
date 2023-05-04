@@ -15,6 +15,10 @@ coloque nas sessões indicadas*/
    --text-color-light: #d6d6d6;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     box-sizing: border-box;
     background-color: var(--background-dark) ;
